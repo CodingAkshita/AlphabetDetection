@@ -1,0 +1,38 @@
+Glossary
+1) os.environ object:
+
+OS module in Python provides functions for interacting with the operating system. 
+OS comes under Python’s standard utility modules. This module provides a portable way of using
+operating system dependent functionality.
+
+os.environ in Python is a mapping object that represents the user’s environmental variables. It returns a dictionary having user’s environmental variable as key and their values as value.
+
+os.environ behaves like a python dictionary, so all the common dictionary operations like get and set can be performed. We can also modify os.environ but any changes will be effective only for the current process where it was assigned and it will not change the value permanently.
+
+2) SSL - SSL stands for Secure Sockets Layer and, in short, it's the standard technology for keeping an internet connection secure and safeguarding any sensitive data that is being sent between two systems, preventing criminals from reading and modifying any information transferred, including potential personal details.
+
+3) OpenML - It is a public repository for Machine Learning(ML) data and experiments. 
+
+4) TCP/IP - TCP/IP stands for Transmission Control Protocol/Internet Protocol. TCP/IP is a set of standardized rules that allow computers to communicate on a network such as the internet.
+
+5) HTTP - Hypertext Transfer Protocol (HTTP) is a method for encoding and transporting information between a client (such as a web browser) and a web server. HTTP is the primary protocol for transmission of information across the Internet.
+
+6) HTTPS  - Hypertext Transfer Protocol Secure (https) is a combination of the Hypertext Transfer Protocol (HTTP) with the Secure Socket Layer (SSL)/Transport Layer Security (TLS) protocol. This lets you know that all your communication and data is encrypted as it passes from your browser to the website's server.
+
+7) Try Except block: The try except block has 2 blocks. 1st try where you write the code which you want
+to execute. 2nd except block which catches the errors from the try block.
+
+8) cv2.rectangle function syntax
+cv2.rectangle(image, start_point, end_point, color, thickness)
+
+9) We convert an image to grayscale('L' format) so that each pixel is represented by a single value from 0 to 255
+
+10) Anti-aliasing is the smoothing of jagged edges in digital images by averaging the colors of the pixels at a boundary.
+
+11) We use the clip function to limit the values between 0 and 255.
+
+12) asarray() function is used when we want to convert input to an array.
+
+13) The numpy.reshape() function shapes an array without changing the data of the array.
+
+14) When the user does not know what code to write, he simply places 'pass'. Sometimes, pass is used when the user doesn't want any code to be executed.
